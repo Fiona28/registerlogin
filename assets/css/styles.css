@@ -1,0 +1,79 @@
+* {
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+	font-family: 'Quicksand', sans-serif;
+}
+
+#menubar {
+	height: 125px;
+	background-color: #2e2eb8;
+}
+
+a:link, a:visited {
+	color: white;
+	text-decoration: none;
+}
+
+a:hover {
+	color: #c1c1f0;
+	text-decoration: none;
+}
+
+#title {
+	float: left;
+	margin-left: 50px;
+	margin-top: 20px;
+	font-size: 70px;
+}
+
+#register {
+	float: right;
+	margin-right: 50px;
+	margin-top: 57px;
+	font-size: 30px;
+}
+
+#login {
+	float: right;
+	margin-right: 30px;
+	margin-top: 57px;
+	font-size: 30px;
+}
+
+#regtitle {
+	line-height: 170px;
+	margin-left: 270px;
+	font-size: 40px;
+}
+
+#regbox {
+	background-color: #eaeafa;
+	width: 70%;
+	margin: 0px auto;
+	border-radius: 15%;
+	padding: 20px 100px 20px 100px;
+}
+
+#logininfo {
+	font-size: 25px;
+}
+
+#email {
+	margin
+	font-size: 20px; 
+	color: #737373;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
