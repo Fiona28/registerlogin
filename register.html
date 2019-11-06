@@ -22,147 +22,182 @@
 			Register
 		</div>
 		<div id="regbox" class="clear">
-			<div class="titles">
-				Login Info
-			</div>
-			<div class="divs">
-				<div class="labels">
-					Email
+			<form>
+				<div class="titles">
+					Login Info
 				</div>
-				<input type="Email" name="email" placeholder="Enter email" class="inputboxes">
-			</div>
-			<div class="divs" id="passdiv">
-				<div class="labels">
-					Password
+				<div class="divs">
+					<div class="labels">
+						Email
+					</div>
+					<input type="Email" name="email" placeholder="Enter email" class="inputboxes" required>
 				</div>
-				<input type="Password" name="Password" placeholder="Enter password" class="inputboxes" id="passinput">
-			</div>
-			<div class="divs" id="confirm">
-				<div class="labels">
-					Confirm Password
+				<div class="divs" id="passdiv">
+					<div class="labels">
+						Password
+					</div>
+					<input type="Password" name="Password" placeholder="Enter password" class="inputboxes" id="passinput">
 				</div>
-				<input type="password" name="Confirm" placeholder="Confirm password" class="inputboxes" id="confirminput">
-			</div>
-			<hr class="line">
-			<div class="titles">
-				Personal Info
-			</div>
-			<div class="divs">
-				<div class="labels">
-					First Name
+				<div class="divs" id="confirm">
+					<div class="labels">
+						Confirm Password
+					</div>
+					<input type="password" name="Confirm" placeholder="Confirm password" class="inputboxes" id="confirminput">
 				</div>
-				<input type="Email" name="email" placeholder="Enter first name" class="inputboxes" id="fninput">
-			</div>
-			<div class="divs" id="lastname">
-				<div class="labels">
-					Last Name
+				<hr class="line">
+				<div class="titles">
+					Personal Info
 				</div>
-				<input type="Email" name="email" placeholder="Enter last name" class="inputboxes" id="fninput">
-			</div>
-			<div class="divs">
-				<div class="labels">
-					Gender
+				<div class="divs">
+					<div class="labels">
+						First Name
+					</div>
+					<input type="text" name="firstname" placeholder="Enter first name" class="inputboxes" id="fninput" value="kolokoy">
 				</div>
-				<div id="minput">
-					<input type="radio" name="radio">
-					<div class="glabel">
-						Male
+				<div class="divs" id="lastname">
+					<div class="labels">
+						Last Name
+					</div>
+					<input type="text" name="lastname" placeholder="Enter last name" class="inputboxes" id="lninput">
+				</div>
+				<div class="divs">
+					<div class="labels">
+						Age
+					</div>
+					<input type="number" name="age" placeholder="Enter age" class="inputboxes">
+				</div>
+				<div class="divs">
+					<div class="labels">
+						Gender
+					</div>
+					<div id="minput">
+						<input type="radio" name="gender" value="male" checked>
+						<div class="glabel">
+							Male
+						</div>
+					</div>
+					<div id="finput">
+						<input type="radio" name="gender" value="female">
+						<div class="glabel">
+							Female
+						</div>
+					</div>
+					<div id="uinput">
+						<input type="radio" name="gender" value="unknown">
+						<div class="glabel">
+							Unknown
+						</div>
 					</div>
 				</div>
-				<div id="finput">
-					<input type="radio" name="radio">
-					<div class="glabel">
-						Female
+				<div class="divs" id="bdate">
+					<div class="labels">
+						Birth Date
+					</div>
+					<input type="date" name="date" placeholder="Enter birth date" class="inputboxes" id="dinput">
+				</div>
+				<div class="divs" id="continent">
+					<div class="labels">
+						Continent
+					</div>
+					<select class="inputboxes" id="select">
+						<option selected disabled>
+							Select
+						</option>
+						<option>
+							Africa
+						</option>
+						<option>
+							Antartica
+						</option>
+						<option selected>
+							Asia
+						</option>
+						<option>
+							Australia
+						</option>
+						<option>
+							North America
+						</option>
+						<option>
+							South America 
+						</option>
+						<option>
+							Europe
+						</option>
+					</select>
+				</div>
+				<div class="divs" id="files">
+					<div class="labels">
+						Upload Pic
+					</div>
+					<input type="file" name="pic" class="inputboxes" id="fileinput">
+				</div>
+				<hr>
+				<div class="titles">
+					Programming Skills
+				</div>
+				<div>
+					<div id="set1">
+						<input type="checkbox" name="" checked>
+						<div class="cblabels">
+							HTML
+						</div>
+						<input type="checkbox" name="" checked>
+						<div class="cblabels">
+							CSS
+						</div>
+						<input type="checkbox" name="">
+						<div class="cblabels">
+							JAVASCRIPT
+						</div>
+					</div>
+					<div id="set2">
+						<input type="checkbox" name="">
+						<div class="cblabels">
+							PHP
+						</div>
+						<input type="checkbox" name="">
+						<div class="cblabels">
+							NODEJS
+						</div>
+						<input type="checkbox" name="">
+						<div class="cblabels">
+							MYSQL
+						</div>
 					</div>
 				</div>
-				<div id="uinput">
-					<input type="radio" name="radio">
-					<div class="glabel">
-						Unknown
-					</div>
+				<hr id="line3">
+				<div class="titles" id="aboutyou">
+					About You
 				</div>
-			</div>
-			<div class="divs" id="bdate">
-				<div class="labels">
-					Birth Date
+				<div>
+					<textarea id="textarea" placeholder="Enter text here..." maxlength="10">
+					</textarea>
 				</div>
-				<input type="date" name="date" placeholder="Enter birth date" class="inputboxes" id="dinput">
-			</div>
-			<div class="divs" id="continent">
-				<div class="labels">
-					Continent
-				</div>
-				<select class="inputboxes" id="select">
-					<option selected disabled>
-						Select
-					</option>
-					<option>
-						Africa
-					</option>
-					<option>
-						Antartica
-					</option>
-					<option>
-						Asia
-					</option>
-					<option>
-						Australia
-					</option>
-					<option>
-						North America
-					</option>
-					<option>
-						South America 
-					</option>
-					<option>
-						Europe
-					</option>
-				</select>
-			</div>
+				<hr>
+				<input type="submit" name="" id="submit">
+			</form>
 			<hr>
-			<div class="titles">
-				Programming Skills
-			</div>
-			<div>
-				<div id="set1">
-					<input type="checkbox" name="">
-					<div class="cblabels">
-						HTML
+			<form>
+				<fieldset id="fieldset">
+					<legend>
+						Already a member? Login below
+					</legend>
+					<div id="logininputs">
+						<div class="labels logininputs">
+							Email
+						</div>
+						<input type="email" name="email" class="inputboxes" id="loginemail">
+						<div class="labels logininputs">
+							Password
+						</div>
+						<input type="password" name="password" class="inputboxes" id="loginpass">
+						<button id="loginbutton">
+							Log In
+						</button>
 					</div>
-					<input type="checkbox" name="">
-					<div class="cblabels">
-						CSS
-					</div>
-					<input type="checkbox" name="">
-					<div class="cblabels">
-						JAVASCRIPT
-					</div>
-				</div>
-				<div id="set2">
-					<input type="checkbox" name="">
-					<div class="cblabels">
-						PHP
-					</div>
-					<input type="checkbox" name="">
-					<div class="cblabels">
-						NODEJS
-					</div>
-					<input type="checkbox" name="">
-					<div class="cblabels">
-						MYSQL
-					</div>
-				</div>
-			</div>
-			<hr id="line3">
-			<div class="titles" id="aboutyou">
-				About You
-			</div>
-			<div>
-				<textarea id="textarea">
-				</textarea>
-			</div>
-			<hr>
-			<input type="submit" name="" id="submit">
+				</fieldset>
+			</form>
 		</div>
 	</div>
 	<div id="footer">
