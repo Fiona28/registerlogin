@@ -43,37 +43,173 @@ a:hover {
 
 #regtitle {
 	line-height: 170px;
-	margin-left: 270px;
+	margin-left: 30%;
 	font-size: 40px;
 }
 
 #regbox {
-	background-color: #eaeafa;
-	width: 70%;
+	background-color: #ebebfa;
+	width: 50%;
 	margin: 0px auto;
-	border-radius: 15%;
+	border-radius: 50px;
 	padding: 20px 100px 20px 100px;
 }
 
-#logininfo {
+.titles {
 	font-size: 25px;
+	margin-bottom: 30px;
+	margin-top: 20px;
 }
 
-#email {
-	margin
-	font-size: 20px; 
-	color: #737373;
+.labels {
+	color: gray;
+	font-size: 17.5px;
+}
+
+.inputboxes {
+	position: relative;
+	left: 60px;
+	bottom: 20px;
+	width: 170px;
+}
+
+.divs {
+	margin-top: 10px;
+	margin-left: 30px;
 }
 
 
+#passinput {
+	position: relative;
+	left: 95px;
+}
 
+#confirminput {
+	position: relative;
+	left: 165px;
+}
 
+.line {
+	margin-top: 45px;
+	margin-bottom: 10px;
+}
 
+#fninput {
+	position: relative;
+	left: 105px;
+}
 
+.glabel {
+	position: relative;
+	left: 20px;
+	bottom: 20px;
+	font-size: 13px;
+	color: gray;
+}
 
+#minput {
+	position: relative;
+	left: 90px;
+	bottom: 15px;
+}
 
+#finput {
+	position: relative;
+	left: 210px;
+	bottom: 50px;
+}
 
+#uinput {
+	position: relative;
+	left: 90px;
+	bottom: 50px;
+}
 
+#bdate {
+	position: relative;
+	bottom: 50px;
+}
 
+#dinput {
+	position: relative;
+	left: 95px;
+}
 
+#continent {
+	position: relative;
+	bottom: 50px;
+}
 
+#select {
+	position: relative;
+	left: 95px;
+	bottom: 20px;
+}
+
+.cblabels {
+	position: relative;
+	left: 25px;
+	bottom: 20px;
+	font-size: 13px;
+	color: gray;
+}
+
+#set1 {
+	margin-left: 30px;
+}
+
+#set2 {
+	position: relative;
+	left: 200px;
+	bottom: 107px;
+}
+
+.clear:after {
+	content: "";
+	clear: both;
+	display: block;
+}
+
+#line3 {
+	position: relative;
+	bottom: 50px;
+}
+
+#aboutyou {
+	position: relative;
+	bottom: 50px;
+}
+
+#textarea {
+	position: relative;
+	bottom: 50px;
+	width: 100%;
+	height: 200px;
+}
+
+#submit {
+	margin: 30px;
+	width: 70px;
+	height: 30px;
+	float: right;
+}
+
+#mainbody {
+	padding-bottom: 150px;
+}
+
+#footer {
+	height: 125px;
+	background-color: #2e2eb8;	
+}
+
+#img {
+	width: 40%;
+	margin-left: 30%;
+	margin-right: 30%;
+	margin-top: 150px;
+}
+
+.footerclass {
+	margin-top: 150px;
+}
